@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Kumparan" time="31" tests="1" failures="0" errors="0">
+   <testsuite name="Test Kumparan" tests="1" failures="0" errors="0" time="31" timestamp="2018-11-21 15:51:05" hostname="User - 10.200.35.174" id="Test Suites/Test Kumparan">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Kumparan\\Test Kumparan\\Reports\\Test Kumparan\\20181121_155103"/>
+         <property name="logFiles" value="E:\\Kumparan\\Test Kumparan\\Reports\\Test Kumparan\\20181121_155103\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - 10.200.35.174"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.8.3.2"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.200.35.174"/>
+         <property name="sessionId" value="a4a17f0cf77f3b416456c4a49b6ca74b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Kumparan/Login/Login With FB" classname="Test Cases/Kumparan/Login/Login With FB" status="PASSED">
+         <system-out><![CDATA[2018-11-21 15:51:06 - [TEST_CASE][PASSED] - Test Cases/Kumparan/Login/Login With FB: Test Cases/Kumparan/Login/Login With FB
+
+2018-11-21 15:51:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'null'
+
+2018-11-21 15:51:10 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-11-21 15:51:10 - [TEST_STEP][PASSED] - com.kumparan.Web.openUrl: com.kumparan.Web.openUrl is PASSED
+
+2018-11-21 15:51:18 - [MESSAGE][PASSED] - Navigate to 'https://kumparan.com/' successfully
+
+2018-11-21 15:51:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-21 15:51:20 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1840 and height = 4000
+
+2018-11-21 15:51:20 - [MESSAGE][PASSED] - com.kumparan.Web.openUrl is PASSED
+
+2018-11-21 15:51:20 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-21 15:51:20 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-21 15:51:20 - [TEST_STEP][PASSED] - setViewPortSize: Viewport is set to new size with width = 1200 and height = 653
+
+2018-11-21 15:51:20 - [MESSAGE][PASSED] - Viewport height is 653
+
+2018-11-21 15:51:20 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1200 and height = 653
+
+2018-11-21 15:51:20 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/WebPage/Login Page/ElementNotif' is clickable
+
+2018-11-21 15:51:20 - [MESSAGE][PASSED] - Object 'Object Repository/WebPage/Login Page/ElementNotif' is clickable
+
+2018-11-21 15:51:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/Login Page/btnNoPushNotif' is clicked on
+
+2018-11-21 15:51:21 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/Login Page/btnNoPushNotif' is clicked on
+
+2018-11-21 15:51:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-21 15:51:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-21 15:51:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/Login Page/btnLogin' is clicked on
+
+2018-11-21 15:51:23 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/Login Page/btnLogin' is clicked on
+
+2018-11-21 15:51:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-21 15:51:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-21 15:51:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/Login Page/btnFacebook' is clicked on
+
+2018-11-21 15:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/Login Page/btnFacebook' is clicked on
+
+2018-11-21 15:51:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-21 15:51:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-21 15:51:27 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-11-21 15:51:27 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-11-21 15:51:27 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/WebPage/Login Page/Facebook Page/lblFbLoginPopup' is visible
+
+2018-11-21 15:51:28 - [MESSAGE][PASSED] - Object 'Object Repository/WebPage/Login Page/Facebook Page/lblFbLoginPopup' is visible
+
+2018-11-21 15:51:28 - [TEST_STEP][PASSED] - setText: Text 'mysoul88@gmail.com' is set on object 'Object Repository/WebPage/Login Page/Facebook Page/txtFbLoginEmail'
+
+2018-11-21 15:51:29 - [MESSAGE][PASSED] - Text 'mysoul88@gmail.com' is set on object 'Object Repository/WebPage/Login Page/Facebook Page/txtFbLoginEmail'
+
+2018-11-21 15:51:29 - [TEST_STEP][PASSED] - setText: Text '88151400++Facebook' is set on object 'Object Repository/WebPage/Login Page/Facebook Page/txtFbLoginPassword'
+
+2018-11-21 15:51:29 - [MESSAGE][PASSED] - Text '88151400++Facebook' is set on object 'Object Repository/WebPage/Login Page/Facebook Page/txtFbLoginPassword'
+
+2018-11-21 15:51:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/Login Page/Facebook Page/btnFbLogin' is clicked on
+
+2018-11-21 15:51:30 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/Login Page/Facebook Page/btnFbLogin' is clicked on
+
+2018-11-21 15:51:30 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-11-21 15:51:30 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-11-21 15:51:30 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-21 15:51:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-21 15:51:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-21 15:51:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-21 15:51:05 - [TEST_SUITE][PASSED] - Test Kumparan: Test Cases/Kumparan/Login/Login With FB]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

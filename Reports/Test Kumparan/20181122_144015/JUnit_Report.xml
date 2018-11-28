@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Kumparan" time="99" tests="3" failures="0" errors="0">
+   <testsuite name="Test Kumparan" tests="3" failures="0" errors="0" time="99" timestamp="2018-11-22 14:40:18" hostname="User - 10.200.35.103" id="Test Suites/Test Kumparan">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Kumparan\\Test Kumparan\\Reports\\Test Kumparan\\20181122_144015"/>
+         <property name="logFiles" value="E:\\Kumparan\\Test Kumparan\\Reports\\Test Kumparan\\20181122_144015\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - 10.200.35.103"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.8.3.2"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.200.35.103"/>
+         <property name="sessionId" value="4184040003e501c7035f1f6d603b4b21"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Kumparan/Login/Login With FB" classname="Test Cases/Kumparan/Login/Login With FB" status="PASSED">
+         <system-out><![CDATA[2018-11-22 14:40:18 - [TEST_CASE][PASSED] - Test Cases/Kumparan/Login/Login With FB: Test Cases/Kumparan/Login/Login With FB
+
+2018-11-22 14:40:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'null'
+
+2018-11-22 14:40:23 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-11-22 14:40:23 - [TEST_STEP][PASSED] - com.kumparan.Web.openUrl: com.kumparan.Web.openUrl is PASSED
+
+2018-11-22 14:40:34 - [MESSAGE][PASSED] - Navigate to 'https://kumparan.com/' successfully
+
+2018-11-22 14:40:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-22 14:40:35 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1840 and height = 4000
+
+2018-11-22 14:40:35 - [MESSAGE][PASSED] - com.kumparan.Web.openUrl is PASSED
+
+2018-11-22 14:40:35 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-22 14:40:35 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-22 14:40:35 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/WebPage/Login Page/ElementNotif' is clickable
+
+2018-11-22 14:40:35 - [MESSAGE][PASSED] - Object 'Object Repository/WebPage/Login Page/ElementNotif' is clickable
+
+2018-11-22 14:40:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/Login Page/btnNoPushNotif' is clicked on
+
+2018-11-22 14:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/Login Page/btnNoPushNotif' is clicked on
+
+2018-11-22 14:40:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 14:40:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 14:40:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/Login Page/btnLogin' is clicked on
+
+2018-11-22 14:40:38 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/Login Page/btnLogin' is clicked on
+
+2018-11-22 14:40:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 14:40:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 14:40:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/Login Page/btnFacebook' is clicked on
+
+2018-11-22 14:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/Login Page/btnFacebook' is clicked on
+
+2018-11-22 14:40:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 14:40:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 14:40:42 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-11-22 14:40:42 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-11-22 14:40:42 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/WebPage/Login Page/Facebook Page/lblFbLoginPopup' is visible
+
+2018-11-22 14:40:43 - [MESSAGE][PASSED] - Object 'Object Repository/WebPage/Login Page/Facebook Page/lblFbLoginPopup' is visible
+
+2018-11-22 14:40:43 - [TEST_STEP][PASSED] - setText: Text 'mysoul88@gmail.com' is set on object 'Object Repository/WebPage/Login Page/Facebook Page/txtFbLoginEmail'
+
+2018-11-22 14:40:43 - [MESSAGE][PASSED] - Text 'mysoul88@gmail.com' is set on object 'Object Repository/WebPage/Login Page/Facebook Page/txtFbLoginEmail'
+
+2018-11-22 14:40:43 - [TEST_STEP][PASSED] - setText: Text '88151400++Facebook' is set on object 'Object Repository/WebPage/Login Page/Facebook Page/txtFbLoginPassword'
+
+2018-11-22 14:40:44 - [MESSAGE][PASSED] - Text '88151400++Facebook' is set on object 'Object Repository/WebPage/Login Page/Facebook Page/txtFbLoginPassword'
+
+2018-11-22 14:40:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/Login Page/Facebook Page/btnFbLogin' is clicked on
+
+2018-11-22 14:40:45 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/Login Page/Facebook Page/btnFbLogin' is clicked on
+
+2018-11-22 14:40:45 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-11-22 14:40:45 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-11-22 14:40:45 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-22 14:40:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-22 14:40:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-22 14:40:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Kumparan/Login/Login With Google" classname="Test Cases/Kumparan/Login/Login With Google" status="PASSED">
+         <system-out><![CDATA[2018-11-22 14:40:51 - [TEST_CASE][PASSED] - Test Cases/Kumparan/Login/Login With Google: Test Cases/Kumparan/Login/Login With Google
+
+2018-11-22 14:40:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'null'
+
+2018-11-22 14:40:53 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-11-22 14:40:53 - [TEST_STEP][PASSED] - com.kumparan.Web.openUrl: com.kumparan.Web.openUrl is PASSED
+
+2018-11-22 14:41:01 - [MESSAGE][PASSED] - Navigate to 'https://kumparan.com/' successfully
+
+2018-11-22 14:41:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-22 14:41:02 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1840 and height = 4000
+
+2018-11-22 14:41:02 - [MESSAGE][PASSED] - com.kumparan.Web.openUrl is PASSED
+
+2018-11-22 14:41:02 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-22 14:41:03 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-22 14:41:03 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/WebPage/Login Page/ElementNotif' is clickable
+
+2018-11-22 14:41:03 - [MESSAGE][PASSED] - Object 'Object Repository/WebPage/Login Page/ElementNotif' is clickable
+
+2018-11-22 14:41:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/Login Page/btnNoPushNotif' is clicked on
+
+2018-11-22 14:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/Login Page/btnNoPushNotif' is clicked on
+
+2018-11-22 14:41:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 14:41:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 14:41:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/Login Page/btnLogin' is clicked on
+
+2018-11-22 14:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/Login Page/btnLogin' is clicked on
+
+2018-11-22 14:41:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 14:41:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 14:41:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/Login Page/btnGoogle' is clicked on
+
+2018-11-22 14:41:07 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/Login Page/btnGoogle' is clicked on
+
+2018-11-22 14:41:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 14:41:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 14:41:09 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-11-22 14:41:09 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-11-22 14:41:09 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/WebPage/Login Page/lblGLoginPopup' is visible
+
+2018-11-22 14:41:11 - [MESSAGE][PASSED] - Object 'Object Repository/WebPage/Login Page/lblGLoginPopup' is visible
+
+2018-11-22 14:41:11 - [TEST_STEP][PASSED] - setText: Text 'mysoul88@gmail.com' is set on object 'Object Repository/WebPage/Login Page/txtGEmail'
+
+2018-11-22 14:41:11 - [MESSAGE][PASSED] - Text 'mysoul88@gmail.com' is set on object 'Object Repository/WebPage/Login Page/txtGEmail'
+
+2018-11-22 14:41:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/Login Page/btnGNext' is clicked on
+
+2018-11-22 14:41:11 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/Login Page/btnGNext' is clicked on
+
+2018-11-22 14:41:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-22 14:41:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-22 14:41:14 - [TEST_STEP][PASSED] - setText: Text '88151400++Gmail' is set on object 'Object Repository/WebPage/Login Page/txtGPassword'
+
+2018-11-22 14:41:14 - [MESSAGE][PASSED] - Text '88151400++Gmail' is set on object 'Object Repository/WebPage/Login Page/txtGPassword'
+
+2018-11-22 14:41:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/Login Page/btnGNext' is clicked on
+
+2018-11-22 14:41:14 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/Login Page/btnGNext' is clicked on
+
+2018-11-22 14:41:14 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-11-22 14:41:14 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-11-22 14:41:14 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-22 14:41:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-22 14:41:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-22 14:41:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Kumparan/Comment/Comment With Login FB" classname="Test Cases/Kumparan/Comment/Comment With Login FB" status="PASSED">
+         <system-out><![CDATA[2018-11-22 14:41:20 - [TEST_CASE][PASSED] - Test Cases/Kumparan/Comment/Comment With Login FB: Test Cases/Kumparan/Comment/Comment With Login FB
+
+2018-11-22 14:41:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'null'
+
+2018-11-22 14:41:23 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-11-22 14:41:23 - [TEST_STEP][PASSED] - com.kumparan.Web.openUrl: com.kumparan.Web.openUrl is PASSED
+
+2018-11-22 14:41:32 - [MESSAGE][PASSED] - Navigate to 'https://kumparan.com/' successfully
+
+2018-11-22 14:41:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-22 14:41:33 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1840 and height = 4000
+
+2018-11-22 14:41:33 - [MESSAGE][PASSED] - com.kumparan.Web.openUrl is PASSED
+
+2018-11-22 14:41:33 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-11-22 14:41:33 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-22 14:41:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-22 14:41:33 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/WebPage/Login Page/ElementNotif' is clickable
+
+2018-11-22 14:41:33 - [MESSAGE][PASSED] - Object 'Object Repository/WebPage/Login Page/ElementNotif' is clickable
+
+2018-11-22 14:41:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/Login Page/btnNoPushNotif' is clicked on
+
+2018-11-22 14:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/Login Page/btnNoPushNotif' is clicked on
+
+2018-11-22 14:41:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 14:41:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 14:41:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/Login Page/btnLogin' is clicked on
+
+2018-11-22 14:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/Login Page/btnLogin' is clicked on
+
+2018-11-22 14:41:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 14:41:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 14:41:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/Login Page/btnFacebook' is clicked on
+
+2018-11-22 14:41:37 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/Login Page/btnFacebook' is clicked on
+
+2018-11-22 14:41:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 14:41:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 14:41:39 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-11-22 14:41:39 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-11-22 14:41:39 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/WebPage/Login Page/Facebook Page/lblFbLoginPopup' is visible
+
+2018-11-22 14:41:41 - [MESSAGE][PASSED] - Object 'Object Repository/WebPage/Login Page/Facebook Page/lblFbLoginPopup' is visible
+
+2018-11-22 14:41:41 - [TEST_STEP][PASSED] - setText: Text 'mysoul88@gmail.com' is set on object 'Object Repository/WebPage/Login Page/Facebook Page/txtFbLoginEmail'
+
+2018-11-22 14:41:41 - [MESSAGE][PASSED] - Text 'mysoul88@gmail.com' is set on object 'Object Repository/WebPage/Login Page/Facebook Page/txtFbLoginEmail'
+
+2018-11-22 14:41:41 - [TEST_STEP][PASSED] - setText: Text '88151400++Facebook' is set on object 'Object Repository/WebPage/Login Page/Facebook Page/txtFbLoginPassword'
+
+2018-11-22 14:41:41 - [MESSAGE][PASSED] - Text '88151400++Facebook' is set on object 'Object Repository/WebPage/Login Page/Facebook Page/txtFbLoginPassword'
+
+2018-11-22 14:41:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/Login Page/Facebook Page/btnFbLogin' is clicked on
+
+2018-11-22 14:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/Login Page/Facebook Page/btnFbLogin' is clicked on
+
+2018-11-22 14:41:42 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-11-22 14:41:43 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-11-22 14:41:43 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-22 14:41:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-22 14:41:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/Home/lblTrending' is clicked on
+
+2018-11-22 14:41:48 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/Home/lblTrending' is clicked on
+
+2018-11-22 14:41:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/Home/lblTrending1' is clicked on
+
+2018-11-22 14:41:48 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/Home/lblTrending1' is clicked on
+
+2018-11-22 14:41:48 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/WebPage/TrendingNews/lblTimEditor' successfully
+
+2018-11-22 14:41:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/WebPage/TrendingNews/lblTimEditor' successfully
+
+2018-11-22 14:41:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 14:41:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 14:41:51 - [TEST_STEP][PASSED] - setText: Text ' nice artikel gan' is set on object 'Object Repository/WebPage/TrendingNews/txtComment'
+
+2018-11-22 14:41:51 - [MESSAGE][PASSED] - Text ' nice artikel gan' is set on object 'Object Repository/WebPage/TrendingNews/txtComment'
+
+2018-11-22 14:41:51 - [TEST_STEP][PASSED] - Statement - komen = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(WebPage/TrendingNews/lblComment)): Text of object 'Object Repository/WebPage/TrendingNews/lblComment' is: 'nice artikel gan '
+
+2018-11-22 14:41:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/WebPage/TrendingNews/lblComment' is: 'nice artikel gan '
+
+2018-11-22 14:41:51 - [TEST_STEP][PASSED] - Statement - log.logInfo(komen): nice artikel gan 
+
+2018-11-22 14:41:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 14:41:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 14:41:53 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/WebPage/TrendingNews/btnComment' is clickable
+
+2018-11-22 14:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/WebPage/TrendingNews/btnComment' is clickable
+
+2018-11-22 14:41:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 14:41:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 14:41:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WebPage/TrendingNews/btnComment' is clicked on
+
+2018-11-22 14:41:56 - [MESSAGE][PASSED] - Object: 'Object Repository/WebPage/TrendingNews/btnComment' is clicked on
+
+2018-11-22 14:41:56 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'nice artikel gan ' and expected object 'nice artikel gan ' are equal
+
+2018-11-22 14:41:56 - [MESSAGE][PASSED] - Actual object 'nice artikel gan ' and expected object 'nice artikel gan ' are equal
+
+2018-11-22 14:41:56 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-22 14:41:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-22 14:40:18 - [TEST_SUITE][PASSED] - Test Kumparan: Test Cases/Kumparan/Comment/Comment With Login FB]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

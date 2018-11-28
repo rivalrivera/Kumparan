@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://kumparan.com/'</initValue>
+      <name>WEB_MAIN_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mysoul88@gmail.com'</initValue>
+      <name>EMAIL_FACEBOOK_GOOGLE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'88151400++Facebook'</initValue>
+      <name>PASSWORD_FACEBOOK</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'88151400++Gmail'</initValue>
+      <name>PASSWORD_GMAIL</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
